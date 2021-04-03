@@ -3,9 +3,51 @@
 
 <head>
     <title>Page Title</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- styles.css can be exchanged by a full external CSS URL-->
+    <style>
+        body {
+            background-color: burlywood;
+        }
+
+        p {
+            color: darkblue;
+        }
+
+        h1 {
+            color: darkolivegreen
+        }
+
+        a:link {
+            color: green;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: palevioletred;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: red;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellowgreen;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+    </style>
 </head>
 
-<body style="background-color:bisque;">
+<!-- <body style="background-color:bisque;"> -->
+<!--change background color for this page-->
+
+<body>
 
     <h1 style="background-color: cadetblue;">My First Heading</h1>
     <h1 style="font-size:60px;">Heading 1</h1>
@@ -16,6 +58,12 @@
     <p>My first paragraph.</p>
     <p style="color: blue;">This is a blue paragraph</p>
     <p style="font-size: 50px;">This is a big paragraph</p>
+    <p><em>This is an emphasized paragraph</em></p>
+    <p><i>This is an italic paragraph</i></p>
+    <p>This is <b>bold</b> <small>small</small> <mark>mark</mark>
+        <del>delete</del> <ins>underline</ins> <strong>strong</strong> <sub>subcripted</sub> and
+        <sup>superscripted</sup>
+    </p>
     <p title="I'm a titile attribute">This is another paragraph</p>
     <p title="I'm a tooltip">Mouse over this paragraph, to display the title attribute as a tooltip.</p>
     <br>
@@ -30,8 +78,20 @@
       
         Oh, bring back my Bonnie to me.
       </pre>
+    <p>Boring? Let's have a small game</p><button onclick="document.location='game1.html'">Game 1</button>
     <hr>
-    <img src="Bee_Yuumi.jpg" alt="LoL Bee yuumi" width="1386" height="822">
+    <p>My address is:</p>
+    <address>
+        160 Victoria street<br>
+        Carlton,<br>
+        Victoria 3053<br>
+        Australia
+    </address>
+    <a href="newpage.html" title="More information will show">Move to the next page</a>
+    <a href="https://www.metasrc.com/aram/champion/yuumi" target="_blank"><img src="Bee_Yuumi.jpg" alt="LoL Bee yuumi"
+            width="1386" height="822"></a>
+    <p>Click the picture. Let's play!</p>
+    <p>Want to contact me?</p><a href="mailto:wshi00011@gmail.com">Send me Email</a>
     <!-- <img src="D:/Huan_/Documents/GitHub/Frontend-Study/src/Bee_Yuumi.jpg" alt="src yuumi" width="" height=""> -->
 </body>
 
