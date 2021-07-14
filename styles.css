@@ -30,3 +30,33 @@ p{
 .flexbox-item-3{
 	min-height: 300px;
 }
+
+table, td, th{
+	border: 1px solid black;
+	border-collapse: collapse; 
+}
+
+td,th{
+	padding: 18px;
+}
+
+th{
+	text-align: left;
+}
+
+table {
+	/* border-spacing: 55px; */
+}
+
+#a01 th {
+	/* width: 100%; */
+	background-color: blueviolet;
+}
+
+#a01 tr:nth-child(even){
+	background-color: #eee;
+}
+
+#a01 tr:nth-child(odd){
+	background-color: #fff;
+}
